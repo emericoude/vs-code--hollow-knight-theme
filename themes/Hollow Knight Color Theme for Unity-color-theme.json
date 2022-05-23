@@ -1,0 +1,450 @@
+{
+	"name": "Hollow Knight Theme",
+	  "$schema": "vscode://schemas/color-theme",
+	  "type": "dark",
+	  "colors": {
+		//Very Important Stuff
+		"focusBorder": "#00000000",
+		
+		//UNKNOWN
+			"debugToolBar.background": "#32333c",
+			"diffEditor.insertedTextBackground": "#A7B6C915",
+			"diffEditor.removedTextBackground": "#79BEDA20",
+			"editorInfo.foreground": "#807CAE70",
+			"editorRuler.foreground": "#343C3D",
+			"editorWarning.foreground": "#d18144",
+			"extensionButton.prominentBackground": "#A7B6C990",
+			"extensionButton.prominentHoverBackground": "#79BEDA",
+			"pickerGroup.foreground": "#86B066",
+			"notificationLink.foreground": "#79beda",
+			"textLink.activeForeground": "#79beda",
+			"textLink.foreground": "#1d315d",
+			"tree.indentGuidesStroke": "#343C3D",
+
+//------------------ CODE AREA -------------------------
+
+		//TEXT
+		"editorWhitespace.foreground": "#848da220",
+		"editorLink.activeForeground": "#79beda", //Hovered hyperlink color
+
+
+		//Code area background
+		"editor.background": "#191918",
+		"editor.foreground": "#e4eaf0", //default text color (if not assigned)
+
+		//CTRL+F result highlights
+		"editor.findMatchBackground": "#e4eaf070", //background of currently selected match
+		"editor.findMatchHighlightBackground": "#a7b6c950", //background of other match
+
+		"editor.lineHighlightBackground": "#32333c50", //current selected line's background
+		"editor.selectionBackground": "#a7b6c980", //current selection's background
+		"editor.selectionHighlightBackground": "#848da220", //similar items to current selection's backgrounds
+
+		"editorBracketMatch.background": "#a7b6c980", //highlights brackets you are inside of
+		"editorBracketMatch.border": "#e4eaf000",
+		
+		"editorCursor.foreground": "#E4EAF0", //text cursor color
+		
+		"editorError.foreground": "#d18144", //squiggly underline color of errors
+
+		"editorGroup.border": "#343c3d30", //the border between tabs
+		"editorGroupHeader.tabsBackground": "#191918", //background of tabs holder
+
+		//GUTTER: Contains margin and line numbers
+		"editorGutter.addedBackground": "#a7b6c980", //added elements block
+		"editorGutter.modifiedBackground": "#a7b6c980", //modified elements block
+		"editorGutter.deletedBackground": "#d18144", //deleted elements block
+		"editorLineNumber.activeForeground": "#e4eaf0ba",
+		"editorLineNumber.foreground": "#909eb850",
+
+		//INDENT GUIDE: Indent Line (e.g. when using )
+		"editorIndentGuide.activeBackground": "#e4eaf0",
+		"editorIndentGuide.background": "#848da280",	
+
+		//EDITOR MARKER: Window pop up shown below problematic code when search for it (F8)
+		"editorMarkerNavigation.background": "#32333c",
+
+		//OVERVIEW RULER: Minimap elements underneat the scrollbar
+		"editorOverviewRuler.border": "#ffffff00",
+		"editorOverviewRuler.errorForeground": "#ff0000",
+		"editorOverviewRuler.findMatchForeground": "#ffffff00",
+		"editorOverviewRuler.infoForeground": "#ffffff00",
+		"editorOverviewRuler.warningForeground": "#ffffff00",
+			//MINIMAP
+			"minimap.background": "#191918",
+			"minimapGutter.addedBackground": "#79BEDA",
+			"minimapGutter.deletedBackground": "#E4EAF0",
+			"minimapGutter.modifiedBackground": "#A7B6C9",
+			"minimapSlider.activeBackground": "#A7B6C9b0",
+			"minimapSlider.background": "#A7B6C980",
+			"minimapSlider.hoverBackground": "#A7B6C9a0",
+
+		//PEEK VIEW: Window that opens in between code when doing "Find all references"
+		"peekView.border": "#343c3d",
+		"peekViewEditor.background": "#32333c",
+		"peekViewEditor.matchHighlightBackground": "#a7b6c980",
+		"peekViewEditorGutter.background": "#191918",
+		"peekViewResult.background": "#191918",
+		"peekViewResult.matchHighlightBackground": "#a7b6c980",
+		"peekViewResult.selectionBackground": "#e4eaf020",
+		"peekViewTitle.background": "#32333c",
+		"peekViewTitleDescription.foreground": "#a7b6c9c6",
+
+		//SCROLLBAR
+		"scrollbar.shadow": "#d18144",
+		"scrollbarSlider.activeBackground": "#e4eaf0bb",
+		"scrollbarSlider.background": "#a7b6c950",
+		"scrollbarSlider.hoverBackground": "#e4eaf050",
+
+//------------------ WIDGETS -------------------------
+
+		"widget.shadow": "#d18144",
+
+		//EDITOR WIDGETS: Base for any widget
+		"editorWidget.background": "#343c3de8",
+		"editorWidget.border": "#ffffff00",
+		"editorWidget.resizeBorder": "#dedddf",
+		/* OTHER WIDGETS
+			"editorSuggestWidget.background": "#191918",
+			"editorSuggestWidget.border": "#FAD29510",
+			"editorSuggestWidget.foreground": "#D18144",
+			"editorSuggestWidget.highlightForeground": "#E4EAF0",
+			"editorSuggestWidget.selectedBackground": "#86B06620",
+
+			//HOVER WIDGET: Widget that appears when hovering over hoverable code.
+			"editorHoverWidget.background": "#343c3de8",
+			"editorHoverWidget.border": "#ffffff00",
+		*/
+
+		//Button widgets inside of activity windows.
+		"button.background": "#32333c",
+
+		//INPUT WIDGET (CTRL+F)
+		"input.background": "#191918",
+		"input.border": "#00000000",
+		"input.foreground": "#e4eaf0",
+		"input.placeholderForeground": "#848da280",
+			"inputOption.activeBackground": "#343c3dca", //Options of input widgets (aka the buttons on it)
+			"inputValidation.errorBorder": "#00000000", //border of error widget
+			"inputValidation.infoBorder": "#00000000",
+			"inputValidation.warningBorder": "#00000000",
+
+		//LIST ELEMENTS (e.g. Explorer Window)
+		"list.activeSelectionBackground": "#343c3d",
+		"list.activeSelectionForeground": "#e4eaf0",
+		"list.focusBackground": "#343c3d90", //focus when moving through a list with the keyboard arrows
+		"list.focusForeground": "#e4eaf0",
+		"list.highlightForeground": "#a7b6c9", //?
+		"list.hoverBackground": "#343c3d90",
+		"list.hoverForeground": "#e4eaf0",
+		"list.inactiveSelectionBackground": "#343c3d20",
+		"list.inactiveSelectionForeground": "#e4eaf0",
+		"list.warningForeground": "#e5a577",
+		"listFilterWidget.background": "#19191830",
+		"listFilterWidget.noMatchesOutline": "#19191830",
+		"listFilterWidget.outline": "#19191830",
+
+//------------------ MENUS -------------------------
+
+		//MENUS: Drop down from top menu (e.g. Files)
+		"menu.background": "#191918",
+		"menu.border": "#343c3d",
+		"menu.foreground": "#a7b6c9",
+		"menu.selectionBackground": "#32333c",
+		"menu.selectionBorder": "#00000000",
+		"menu.selectionForeground": "#e4eaf0",
+		"menu.separatorBackground": "#909eb8",
+		"menubar.selectionBackground": "#32333C",
+		"menubar.selectionBorder": "#00000000",
+		"menubar.selectionForeground": "#e4eaf0",
+
+		//ACTIVITY BAR: Bar on the far left, where buttons such as "Explorer" are displayed.
+		"activityBar.background": "#191918",
+		"activityBar.border": "#19191860",
+		"activityBar.foreground": "#dedddf",
+		"activityBarBadge.background": "#d18144",
+		"activityBarBadge.foreground": "#1c100d",
+			//BADGES: Element (e.g. search count) in activity windows.
+			"badge.background": "#d18144",
+			"badge.foreground": "#1c100d",
+			//SIDEBAR: Windows opened by the activity bar
+			"sideBar.background": "#191918",
+			"sideBar.border": "#343c3d70",
+			"sideBar.foreground": "#848da2",
+			"sideBarSectionHeader.background": "#191918",
+			"sideBarSectionHeader.border": "#19191860",
+			"sideBarSectionHeader.foreground": "#848da2",
+			"sideBarTitle.foreground": "#a7b6c9",
+
+		//BREADCRUMB: The path displayed above the code.
+		"breadcrumb.activeSelectionForeground": "#909eb8",
+		"breadcrumb.background": "#191918",
+		"breadcrumb.focusForeground": "#a7b6c9",
+		"breadcrumb.foreground": "#dedddf",
+		"breadcrumbPicker.background": "#32333c",
+		
+		//Used for any dropdown widget, such as the one in the OUTPUT panel.
+		"dropdown.background": "#191918",
+		"dropdown.border": "#FAD29510",
+
+		"progressBar.background": "#e5a577",
+		"selection.background": "#a7b6c950",
+
+		/* SETTINGS MENU, seems decent without edit
+		"settings.checkboxBackground": "#191918",
+		"settings.checkboxForeground": "#D18144",
+		"settings.dropdownBackground": "#191918",
+		"settings.dropdownForeground": "#D18144",
+		"settings.headerForeground": "#86B066",
+		"settings.modifiedItemIndicator": "#86B066",
+		"settings.numberInputBackground": "#191918",
+		"settings.numberInputForeground": "#D18144",
+		"settings.textInputBackground": "#191918",
+		"settings.textInputForeground": "#D18144",
+		*/
+		
+		//STATUS BAR: Displays info at the bottom of the screen.
+		"statusBar.background": "#191918",
+		"statusBar.foreground": "#a7b6c9",
+		"statusBar.border": "#343c3d50",
+		"statusBar.debuggingBackground": "#5a2d18",
+		"statusBar.debuggingForeground": "#a7b6c9",
+		"statusBar.noFolderBackground": "#191918",
+		"statusBarItem.hoverBackground": "#86B06620",
+		"statusBarItem.remoteBackground": "#132316",
+		"statusBarItem.remoteForeground": "#a7b6c9",
+
+		//TABS
+		"tab.activeBackground": "#3f3c39",
+		"tab.activeForeground": "#e4eaf0",
+		"tab.activeBorder": "#00000000",
+		"tab.activeModifiedBorder": "#00000000",
+		"tab.border": "#00000000",
+		"tab.inactiveBackground": "#3f3c3940",
+		"tab.inactiveForeground": "#848da2c5",
+		"tab.unfocusedActiveBorder": "#00000000",
+		"tab.unfocusedActiveBackground": "#3f3c3920",
+		"tab.unfocusedActiveForeground": "#848da29d",
+		"tab.unfocusedInactiveBackground": "#3f3c3920",
+		"tab.unfocusedInactiveForeground": "#848da29d",
+
+		//TITLEBAR: The bar where menus such as file are
+		"titleBar.activeBackground": "#191918",
+		"titleBar.activeForeground": "#a7b6c9",
+		"titleBar.border": "#19191860",
+		"titleBar.inactiveBackground": "#191918",
+		"titleBar.inactiveForeground": "#848da2",
+
+		//GIT
+		"gitDecoration.modifiedResourceForeground": "#a7b6c9",
+		"gitDecoration.addedResourceForeground" : "#a7b6c9",
+		"gitDecoration.untrackedResourceForeground": "#a7b6c9"
+
+	  },
+
+// NEUTRAL TONES ----------------------
+	"tokenColors": [
+		{ // White 
+			"scope": [
+				"variable", //variable names
+				"entity.name.variable.field.cs", //variable name declaration
+				"entity.name.variable.local.cs",
+				"variable.other.readwrite.cs",
+				"variable.other.object.property.cs",
+			],
+
+			"settings": {
+				"foreground": "#e4eaf0eb"
+			}
+		},
+
+		{ // Light Gray 
+			"scope": [
+				"storage.modifier", //public, private
+				"constant.language",
+				"punctuation.squarebracket", //square brackets
+				"variable.other.object.cs", //reference to a objects (class, variable)
+			],
+
+			"settings": {
+				"foreground": "#a7b6c9"
+			}
+		},
+
+		{ // Gray 
+			"scope": [
+				"entity", //Types (Transform), Attributes (SerializeField)
+				"storage.modifier.cs",
+				"punctuation.terminator.statement.cs",
+				"punctuation.parenthesis",
+				"punctuation.accessor.cs",
+			],
+
+			"settings": {
+				"foreground": "#848da2"
+			}
+		},
+
+// ORANGES ----------------------
+		{ // Light Orange  
+			"scope": [	
+				"comment.line.double-slash.cs",
+				"comment.block.cs",
+				"entity.name.tag.localname.cs",
+			],
+
+			"settings": {
+				"foreground": "#fad295"
+			}
+		},
+
+		{ // Pale Orange
+			"scope": [
+				"comment.block.documentation.cs",
+			],
+
+			"settings": {
+				"foreground": "#e5a577"
+			}
+		},
+
+		{ // Orange 
+			"scope": [
+				"string.quoted.double.cs",
+			],
+
+			"settings": {
+				"foreground": "#d18144"
+			}
+		},
+
+// BLUES ----------------------
+		{ // Cyan-Green
+			"scope": [
+				"keyword.control.conditional", //if, etc
+				"keyword.control.switch.cs", //switch
+				"keyword.control.default.cs",
+				"keyword.control.case.cs",
+				"keyword.control.loop", //for, foreach, etc
+			],
+
+			"settings": {
+				"foreground": "#5acab4"
+			}
+		},
+
+		{ // Light Blue
+			"scope": [
+				
+			],
+
+			"settings": {
+				"foreground": "#acdaef"
+			}
+		},
+
+		{ // Blue  
+			"scope": [
+				
+			],
+
+			"settings": {
+				"foreground": "#79beda"
+			}
+		},
+
+// GREENS ----------------------
+		{ // Emerald
+			"scope": [
+				//"keyword", //void, return, =
+			],
+
+			"settings": {
+				"foreground": "#43977b"
+			}
+		},
+
+		{ // Light Green
+			"scope": [
+				"entity.name.function.cs"
+			],
+
+			"settings": {
+				"foreground": "#b5d379e8"
+			}
+		},
+
+		{ //Green
+			"scope": [
+				
+			],
+
+			"settings": {
+				"foreground": "#86b066"
+			}
+		},
+
+//ACCENTS ----------------------
+		{ // Pink
+			"scope": [
+				"keyword.control.flow"
+			],
+
+			"settings": {
+				"foreground": "#b25899"
+			}
+		},
+
+		{ // Purple
+			"scope": [
+				"entity.name.type.cs", //custom types (LayerMask) 
+				"keyword.type.cs", //float, int, function return type
+				"keyword.other.enum.cs", //enum keyword
+				"entity.name.type.enum.cs", //enum name
+			],
+
+			"settings": {
+				"foreground": "#656474"
+			}
+		},
+
+		{ // Red
+			"scope": [
+				"keyword.preprocessor",
+				"punctuation.separator.hash.cs",
+				"keyword.operator.null-conditional.cs",
+			],
+
+			"settings": {
+				"foreground": "#ef7f73"
+			}
+		},
+
+//FONT STYLES ------------------------------------
+		{ // Italic  
+			"scope": [
+				"string.quoted.double.cs",
+				"comment.line.double-slash.cs",
+				//"entity.name.type.cs", //private, public, out
+			],
+
+			"settings": {
+				"fontStyle": "italic"
+				}
+		},
+
+		{ // Bold  
+			"scope": [
+				"string.unquoted.preprocessor.message.cs",
+				"keyword.preprocessor.region.cs",
+				"punctuation.separator.hash.cs",
+				"keyword.operator",
+				//"entity.name.function.cs",
+			],
+
+			"settings": {
+				"fontStyle": "bold"
+				}
+		},
+	  ]
+  }
