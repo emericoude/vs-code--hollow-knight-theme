@@ -1,27 +1,27 @@
 {
 	"name": "Hollow Knight Theme",
-	  "$schema": "vscode://schemas/color-theme",
-	  "type": "dark",
-	  "colors": {
+	"$schema": "vscode://schemas/color-theme",
+	"type": "dark",
+	"colors": {
 		//Very Important Stuff
 		"focusBorder": "#00000000",
-		
-		//UNKNOWN
-			"debugToolBar.background": "#32333c",
-			"diffEditor.insertedTextBackground": "#A7B6C915",
-			"diffEditor.removedTextBackground": "#79BEDA20",
-			"editorInfo.foreground": "#807CAE70",
-			"editorRuler.foreground": "#343C3D",
-			"editorWarning.foreground": "#d18144",
-			"extensionButton.prominentBackground": "#A7B6C990",
-			"extensionButton.prominentHoverBackground": "#79BEDA",
-			"pickerGroup.foreground": "#86B066",
-			"notificationLink.foreground": "#79beda",
-			"textLink.activeForeground": "#79beda",
-			"textLink.foreground": "#1d315d",
-			"tree.indentGuidesStroke": "#343C3D",
 
-//------------------ CODE AREA -------------------------
+		//UNKNOWN
+		"debugToolBar.background": "#32333c",
+		"diffEditor.insertedTextBackground": "#A7B6C915",
+		"diffEditor.removedTextBackground": "#79BEDA20",
+		"editorInfo.foreground": "#807CAE70",
+		"editorRuler.foreground": "#343C3D",
+		"editorWarning.foreground": "#d18144",
+		"extensionButton.prominentBackground": "#A7B6C990",
+		"extensionButton.prominentHoverBackground": "#79BEDA",
+		"pickerGroup.foreground": "#86B066",
+		"notificationLink.foreground": "#79beda",
+		"textLink.activeForeground": "#79beda",
+		"textLink.foreground": "#1d315d",
+		"tree.indentGuidesStroke": "#343C3D",
+
+		//------------------ CODE AREA -------------------------
 
 		//TEXT
 		"editorWhitespace.foreground": "#848da220",
@@ -37,6 +37,7 @@
 		"editor.findMatchHighlightBackground": "#a7b6c950", //background of other match
 
 		"editor.lineHighlightBackground": "#32333c50", //current selected line's background
+		"editor.lineHighlightBorder": "#00000000",
 		"editor.selectionBackground": "#a7b6c980", //current selection's background
 		"editor.selectionHighlightBackground": "#848da220", //similar items to current selection's backgrounds
 
@@ -96,7 +97,7 @@
 		"scrollbarSlider.background": "#a7b6c950",
 		"scrollbarSlider.hoverBackground": "#e4eaf050",
 
-//------------------ WIDGETS -------------------------
+		//------------------ WIDGETS -------------------------
 
 		"widget.shadow": "#d18144",
 
@@ -144,7 +145,7 @@
 		"listFilterWidget.noMatchesOutline": "#19191830",
 		"listFilterWidget.outline": "#19191830",
 
-//------------------ MENUS -------------------------
+		//------------------ MENUS -------------------------
 
 		//MENUS: Drop down from top menu (e.g. Files)
 		"menu.background": "#191918",
@@ -240,10 +241,9 @@
 		"gitDecoration.addedResourceForeground" : "#a7b6c9",
 		"gitDecoration.untrackedResourceForeground": "#a7b6c9"
 
-	  },
-
-// NEUTRAL TONES ----------------------
+	},
 	"tokenColors": [
+		// NEUTRAL TONES ----------------------
 		{ // White 
 			"scope": [
 				"variable", //variable names
@@ -285,7 +285,7 @@
 			}
 		},
 
-// ORANGES ----------------------
+		// ORANGES ----------------------
 		{ // Light Orange  
 			"scope": [	
 				"comment.line.double-slash.cs",
@@ -318,7 +318,7 @@
 			}
 		},
 
-// BLUES ----------------------
+		// BLUES ----------------------
 		{ // Cyan-Green
 			"scope": [
 				"keyword.control.conditional", //if, etc
@@ -353,7 +353,7 @@
 			}
 		},
 
-// GREENS ----------------------
+		// GREENS ----------------------
 		{ // Emerald
 			"scope": [
 				//"keyword", //void, return, =
@@ -384,7 +384,7 @@
 			}
 		},
 
-//ACCENTS ----------------------
+		//ACCENTS ----------------------
 		{ // Pink
 			"scope": [
 				"keyword.control.flow"
@@ -420,7 +420,7 @@
 			}
 		},
 
-//FONT STYLES ------------------------------------
+		//FONT STYLES ------------------------------------
 		{ // Italic  
 			"scope": [
 				"string.quoted.double.cs",
@@ -430,7 +430,7 @@
 
 			"settings": {
 				"fontStyle": "italic"
-				}
+			}
 		},
 
 		{ // Bold  
@@ -444,7 +444,7 @@
 
 			"settings": {
 				"fontStyle": "bold"
-				}
+			}
 		},
-	  ]
-  }
+	]
+}
