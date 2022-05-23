@@ -2,7 +2,12 @@
     "name": "hollow-knight-theme",
     "displayName": "Hollow Knight Theme",
     "description": "A VS Code color theme made for Unity and csharp.",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "publisher": "emericoude",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/emericoude/vs-code--hollow-knight-theme"
+    },
     "engines": {
         "vscode": "^1.67.0"
     },
@@ -17,5 +22,14 @@
                 "path": "./themes/Hollow Knight Color Theme for Unity-color-theme.json"
             }
         ]
-    }
+    },
+    "keywords": [
+        "theme",
+        "dark",
+        "hollow knight",
+        "hollow-knight",
+        "unity",
+        "unity theme",
+        "emeric coude"
+    ]
 }

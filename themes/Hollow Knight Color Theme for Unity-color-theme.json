@@ -27,7 +27,6 @@
 		"editorWhitespace.foreground": "#848da220",
 		"editorLink.activeForeground": "#79beda", //Hovered hyperlink color
 
-
 		//Code area background
 		"editor.background": "#191918",
 		"editor.foreground": "#e4eaf0", //default text color (if not assigned)
