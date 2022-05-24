@@ -1,0 +1,9 @@
+[submodule "vscode-hollowKnight-bloom"]
+	path = vscode-hollowKnight-bloom
+	url = https://github.com/emericoude/vscode-hollowKnight-bloom
+[submodule "vscode-hollowKnight-background"]
+	path = vscode-hollowKnight-background
+	url = https://github.com/emericoude/vscode-hollowKnight-background
+[submodule "vscode-hollowKnight-powerMode"]
+	path = vscode-hollowKnight-powerMode
+	url = https://github.com/emericoude/vscode-hollowKnight-powerMode
