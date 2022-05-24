@@ -1,0 +1,9 @@
+[submodule "vscode-background"]
+	path = vscode-background
+	url = https://github.com/shalldie/vscode-background
+[submodule "vscode-power-mode"]
+	path = vscode-power-mode
+	url = https://github.com/hoovercj/vscode-power-mode
+[submodule "synthwave-vscode"]
+	path = synthwave-vscode
+	url = https://github.com/robb0wen/synthwave-vscode
